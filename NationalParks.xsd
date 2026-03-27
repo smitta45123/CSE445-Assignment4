@@ -1,5 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://smitta45123.github.io/CSE445-Assignment4"
+           targetNamespace="https://smitta45123.github.io/CSE445-Assignment4"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
@@ -28,5 +32,3 @@
     </xs:complexType>
   </xs:element>
 </xs:schema>
-
-
